@@ -5,7 +5,7 @@ Projeto com API contendo as 4 operações básicas utilizando mongodb
 
 `npm install`  </br>
 `npm install -g typescript`  </br>
-`Criar database lista no mongodb (Pode utilizar o compass)`  </br>
+`Criar database com o nome "lista" no mongodb (Pode utilizar o compass)`  </br>
 
 
 # Rotas de teste
