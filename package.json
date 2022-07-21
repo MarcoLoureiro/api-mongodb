@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "set NODE_ENV=test& jest --runInBand",
-    "dev": "nodemon -e ts,json,mustache src/server.ts"
+    "dev": "docker-compose down && docker-compose up -d && nodemon -e ts,json,mustache src/server.ts"
   },
   "keywords": [],
   "author": "",
