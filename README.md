@@ -3,17 +3,17 @@ Projeto com API contendo as 4 operações básicas utilizando mongodb
 
 # Pré-requisitos
 
-`npm install`
-`npm install -g typescript`
-`Criar database lista no mongodb (Pode utilizar o compass)`
+`npm install`  </br>
+`npm install -g typescript`  </br>
+`Criar database com o nome "lista" no mongodb (Pode utilizar o compass)`  </br>
 
 
 # Rotas de teste
 
-`GET: http://localhost:3000/api/tarefas`
-`POST: http://localhost:3000/api/tarefas/criar-tarefa`
-`DELETE: http://localhost:3000/api/tarefas/deletar-tarefa/:id`
-`UPDATE: http://localhost:3000/api/tarefas/atualizar-tarefa/:id`
+`GET: http://localhost:3000/api/tarefas` </br>
+`POST: http://localhost:3000/api/tarefas/criar-tarefa` </br>
+`DELETE: http://localhost:3000/api/tarefas/deletar-tarefa/:id` </br>
+`UPDATE: http://localhost:3000/api/tarefas/atualizar-tarefa/:id` </br>
 
 # Execução
 
@@ -21,4 +21,5 @@ Projeto com API contendo as 4 operações básicas utilizando mongodb
 
 # Obs
 
-Falta implementar testes unitarios nos endpoints 
+Falta implementar testes unitarios nos endpoints </br>
+O database do banco está na porta padrão do mongo (27017)
