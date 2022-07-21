@@ -5,7 +5,7 @@ Projeto com API contendo as 4 operações básicas utilizando mongodb
 
 `npm install`  </br>
 `npm install -g typescript`  </br>
-`Criar database com o nome "lista" no mongodb (Pode utilizar o compass)`  </br>
+`Ter o docker instalado`  </br>
 
 
 # Rotas de teste
@@ -22,4 +22,3 @@ Projeto com API contendo as 4 operações básicas utilizando mongodb
 # Obs
 
 Falta implementar testes unitarios nos endpoints </br>
-O database do banco está na porta padrão do mongo (27017)
